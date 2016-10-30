@@ -1,15 +1,15 @@
 {
   "name": "node-tdd-mocha",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js 로 TDD 를 도전해보자 샘플코드",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/babel-cli/bin/babel-node.js index.js",
     "test": "node ./node_modules/mocha/bin/mocha --compilers js:babel-register --recursive ./**/*.spec.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["tdd", "mocha", "chai", "supertest"],
+  "author": "Seokjun Kim <colus001@me.com>",
+  "license": "MIT",
   "devDependencies": {
     "babel-preset-node6": "^11.0.0",
     "babel-register": "^6.18.0",
