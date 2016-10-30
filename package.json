@@ -1,0 +1,23 @@
+{
+  "name": "node-tdd-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
